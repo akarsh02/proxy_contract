@@ -1,0 +1,70 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x20E28d09625d7C3576A8fC9e2CA9783c1cf14003",
+    "txHash": "0xb11969e14e70d158656e8accc1954061f7965d98d82008bf1076208816fdf468"
+  },
+  "proxies": [
+    {
+      "address": "0x2C6Ba94a0946Ba7486683F3aeA1564c5F15669E0",
+      "txHash": "0xe165ade1b7dc8be45adb1b0da32230168ecc22189b1b5d0a16f43c82dd53c92e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE578Bc1cDB9760693A4DD30A419CC428E4E292B1",
+      "txHash": "0x8112ffc479b1c0e971a91a11061c4d1487e91971db0360cf1393301a4ab2b384",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3deB679C35628c90f4424B85bA0942c36DaAb2FC",
+      "txHash": "0x39dbab4cfc41095d22e8f4f5fa3994dec3dbc42ba512a9b43367c972e6cc4844",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "58a4a4ce6c4d6038902284dfb469539d258f652565aa4fe4905418d82a2958e4": {
+      "address": "0x927cF79bE156D18d0074Aedb92C931680fCBB310",
+      "txHash": "0x66870bfb10ace7fa0e8801ade19b47f4b9ca79e7bcc8d481e4004be666b74f88",
+      "layout": {
+        "storage": [
+          {
+            "label": "val",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:13"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "0b9035f36ab2674d2e267652347ba5e2916bb03629a5125c9d8c762132893eab": {
+      "address": "0xBe0f48c5CAaAB1EeF1d67a6F56B79530AA12f5DE",
+      "txHash": "0x369a7d9f589ce3d3edd8fedbe09f0e0aff7289b34dc6ca3eca516a910f9c517b",
+      "layout": {
+        "storage": [
+          {
+            "label": "val",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts/BoxV2.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
